@@ -1,0 +1,100 @@
+/* General styles for the body*/
+body{
+	font-family:Arial, sans-serif; /*font family for the text*/
+	margin:0; /* remove default margin*/
+	padding:0; /*remove default padding*/
+	background-image:url('images/background.jpg');
+	background-size:cover;
+	background-position:center; /*centers the background image*/
+	background-repeat:no-repeat; /* prevents the image from repeating*/
+	color:#333;
+}
+/*header styles*/
+header{
+	background:rgba(53, 66, 74, 0.8); /*semi transparent background*/
+	color:#ffffff; /*color of the header*/
+	padding:20px 0; /*padding above and below each section*/
+	text-align:center; /*center the text in the header*/
+}
+/* navigation styles*/
+ nav ul{
+ 	list-style:none; /*remove default list styling*/
+ 	padding:0; /* remove default padding*/
+}
+
+nav ul li{
+	display:inline;
+	margin:0 15px; /*margin between navigation lines*/
+}
+
+nav ul li a {
+	color:#ffffff; /*white text color for links*/
+	text-decoration:none; /*remove underline from links*/
+}
+/*main content styles*/
+main{
+	padding:20px; /*padding inside each section*/
+	background:rgba(255, 255, 255, 0.9); /*white background with transparency*/
+	border-radius:8px; /*rounded corners*/
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.1); /*shadow effect*/
+}
+
+h2{
+	color:#35424a; /*dark gray color for subheadings*/
+}
+
+footer{
+	text-align:center; /*center the text in the footer*/
+	padding:10px 0; /* add padding above and below the footer*/
+	background:#35424a;
+	color:#ffffff; /*white text color for the footer*/
+	position:relative;
+	bottom:0; /*align the footer at the bottom*/
+	width:100%; /*full width for the footer*/
+}
+/*form styles*/
+form{
+	max-width:400px; /*maximum width for the form*/
+	margin:auto;
+	background:#ffffff; /*white background for the form*/
+	padding:20px; /*padding inside the form*/
+	border-radius:5px; /*apply rounded corners to images*/
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.1); /*add shadow effect for depth*/
+}
+/*form label styles*/
+form label{
+	display:block;
+	margin:10px 0 5px; /*add space aabove and below images */
+}
+
+form input, form textarea{
+	width:100%;
+	padding:10px; /*padding inside inputs and textareas*/
+	margin-bottom:10px;
+	border:1px solid #ccc; /*light gray border*/
+	border-radius:4px;
+}
+/* button styles*/
+form button{
+	background: #35424a; /*dark background color for buttons*/
+	color:white; /*white color for buttons*/
+	border:none; /*remove default border*/
+	padding: 10px; /*padding inside buttons*/
+	border-radius: 4px; /*rounded corners for buttons*/
+	cursor:pointer; /*pointer cursor on hover*/
+}
+
+form button:hover{
+	background: #2c3e50; /*darker background on hover*/
+}
+
+.error{
+	color:red; /*red color for error messages*/
+	font-size:0.9em; /*smaller font size for errors*/
+}
+
+.success{
+	color:green; /*green text for success messages*/
+	font-weight:bold; /*bold text for emphasis*/
+	margin-top:10px; /*margin above success messages*/
+}
